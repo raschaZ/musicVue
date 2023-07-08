@@ -2,10 +2,8 @@
   <AppHeader />
   <!-- Introduction -->
   <section class="mb-8 py-20 text-white text-center relative">
-    <div
-      class="absolute inset-0 w-full h-full bg-contain introduction-bg"
-      style="background-image: url(../assets/img/header.png)"
-    ></div>
+    <div class="absolute inset-0 w-full h-full bg-contain introduction-bg"
+      style="background-image: url(../assets/img/header.png)"></div>
     <div class="container mx-auto">
       <div class="text-white main-header-content">
         <h1 class="font-bold text-5xl mb-5">Listen to Great Music!</h1>
@@ -17,10 +15,8 @@
       </div>
     </div>
 
-    <img
-      class="relative block mx-auto mt-5 -mb-20 w-auto max-w-full"
-      src="../assets/img/introduction-music.png"
-    />
+    <img class="relative block mx-auto mt-5 -mb-20 w-auto max-w-full"
+      v-attr="src = '../assets/img/introduction_music.png'" />
   </section>
 
   <!-- Main Content -->
@@ -33,9 +29,7 @@
       </div>
       <!-- Playlist -->
       <ol id="playlist">
-        <li
-          class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50"
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -48,9 +42,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50"
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -63,9 +55,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50"
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -78,9 +68,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50"
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -93,9 +81,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50"
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -108,9 +94,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50"
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -123,9 +107,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50"
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -138,9 +120,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50"
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -153,9 +133,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50"
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -168,9 +146,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50"
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -183,9 +159,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50"
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -198,9 +172,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50"
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -213,9 +185,7 @@
             </span>
           </div>
         </li>
-        <li
-          class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50"
-        >
+        <li class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50">
           <div>
             <a href="#" class="font-bold block text-gray-600">Song Title</a>
             <span class="text-gray-500 text-sm">Artist Name</span>
@@ -254,10 +224,7 @@
           <i class="fas fa-circle"></i>
         </span>
         <!-- Player Progress Bar-->
-        <span
-          class="block h-2 rounded bg-gradient-to-r from-green-500 to-green-400"
-          style="width: 50%"
-        ></span>
+        <span class="block h-2 rounded bg-gradient-to-r from-green-500 to-green-400" style="width: 50%"></span>
       </div>
       <!-- Duration -->
       <div class="player-duration">03:06</div>
@@ -268,10 +235,21 @@
 
 <style></style>
 <script>
-import AppHeader from '@/components/AppHeader.vue'
-import AppAuth from '@/components/AppAuth.vue'
+import AppHeader from '@/components/AppHeader.vue';
+import AppAuth from '@/components/AppAuth.vue';
+import { mapWritableState } from 'pinia';
+import userUserStore from '@/stores/user';
+import { auth } from './includes/firebase';
 export default {
   name: 'App',
-  components: { AppHeader, AppAuth }
-}
+  components: { AppHeader, AppAuth },
+  computed: {
+    ...mapWritableState(userUserStore, ["isLoggedIn"])
+  },
+  created() {
+    if (auth.currentUser) {
+      this.isLoggedIn = true;
+    }
+  }
+};
 </script>
